@@ -1,8 +1,8 @@
 
 public class Author {
-	String _name;
-	String _email;
-	char _gender;
+	private String _name;
+	private String _email;
+	private char _gender;
 	
 	public Author(String name, String email, char gender){
 		this._name = name;

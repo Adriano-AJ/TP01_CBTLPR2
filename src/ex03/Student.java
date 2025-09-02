@@ -1,9 +1,9 @@
 package ex03;
 
 public class Student extends Person {
-	String _program;
-	int _year;
-	double _fee;
+	private String _program;
+	private int _year;
+	private double _fee;
 	
 	public Student(String name, String adress, String program, int year, double fee) {
 		super(name, adress);

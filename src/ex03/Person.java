@@ -1,8 +1,8 @@
 package ex03;
 
 public class Person {
-	String _name;
-	String _adress;
+	private String _name;
+	private String _adress;
 	
 	public Person(String name, String adress) {
 		this._name = name;

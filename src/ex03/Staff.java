@@ -1,8 +1,8 @@
 package ex03;
 
 public class Staff extends Person{
-	String _school;
-	double _pay;
+	private String _school;
+	private double _pay;
 	
 	public Staff(String name, String adress, String school, double pay) {
 		super(name, adress);
